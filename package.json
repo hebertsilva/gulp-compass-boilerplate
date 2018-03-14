@@ -1,0 +1,21 @@
+{
+    "name": "gulp-compass-boilerplate",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hebertsilva/gulp-compass-boilerplate"
+    },
+    "author": "Hebert Silva",
+    "license": "ISC",
+    "homepage": "https://github.com/hebertsilva/gulp-compass-boilerplate#readme",
+    "dependencies": {
+      "browser-sync": "^2.18.13",
+      "gulp": "^3.9.1",
+      "gulp-compass": "^2.1.0"
+    }
+  }

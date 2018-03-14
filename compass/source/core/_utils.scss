@@ -1,0 +1,101 @@
+/*
+	## Utils
+*/
+
+.container {
+	max-width: $container;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.content-main {
+	margin: 0 50px;
+	padding: 0 50px;
+}
+
+@include generate_padding_margins();
+
+.clearfix {
+	@include legacy-pie-clearfix;
+}
+
+.hide-text {
+	@include hide-text("left");
+}
+
+.block {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.inline-block {
+	@include inline-block;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+/*
+	## Text
+*/
+
+strong {
+	font-weight: 700;
+}
+
+.text-default {
+	p {
+		font-size: 18px;
+		line-height: 1.4em;
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&.text-large {
+		p {
+			font-size: 24px;
+
+			@include respond-to("extra-large") {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/*
+	## Colors
+*/
+
+.color-white {
+	color: $color-white;
+}
+
+.color-black {
+	color: $color-black;
+}
+
+/*
+	## Fonts
+*/

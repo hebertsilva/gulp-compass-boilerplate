@@ -1,0 +1,25 @@
+# System files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Django stuff:
+*.log
+*.sqlite3
+*.pyc
+*.env
+
+# nodejs
+*node_modules
+
+# sass
+.sass-cache
+.bundle
+
+# collected static
+public/css/
+
+# webpack
+yarn.lock
+*package-lock.json

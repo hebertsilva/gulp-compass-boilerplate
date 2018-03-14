@@ -1,0 +1,12 @@
+/*
+  ## Default style
+*/
+
+@import "core/base";
+@import "core/icon";
+
+body, html {
+  font-size: $font-size-small;
+  color: $color-black;
+  position: relative;
+}
